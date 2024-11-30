@@ -11,13 +11,6 @@ certificates support, and message encapsulations to bindings. Covered with unit 
 You can install it via composer:
 
 ```bash
-composer require litesaml/lightsaml
+composer require justinfx81/lightsaml
 ```
 
-## Documentation
-
-You can find our Cookbook in [this dedicated website](https://docs.litesaml.com).
-
-## Contributing
-
-Light Saml is an open source project under [MIT License](https://github.com/litesaml/lightsaml/blob/master/LICENSE.md) and is [open for contributions](https://github.com/litesaml/lightsaml/blob/master/CONTRIBUTING.md).
