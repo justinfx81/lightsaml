@@ -15,7 +15,7 @@ class KeyHelper
      *
      * @return XMLSecurityKey
      */
-    public static function createPrivateKey($key, $passphrase, $isFile = false, $type = XMLSecurityKey::RSA_SHA1)
+    public static function createPrivateKey($key, $passphrase, $isFile = false, $type = XMLSecurityKey::RSA_SHA256)
     {
         $result = new XMLSecurityKey($type, ['type' => 'private']);
         $result->passphrase = $passphrase;
